@@ -1,4 +1,4 @@
-project/db-data/
+project\db-data\
 
 **/*.pb.go
-project/db-data/mongo/**
+
