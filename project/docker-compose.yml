@@ -102,3 +102,14 @@ services:
       replicas: 1
     volumes:
       - ./db-data/rabbitmq/:/var/lib/rabbitmq/
+
+  frontend:
+    build:
+      context: ./../frontend
+      dockerfile: ./../front-end/frontend.dockerfile
+    restart: always
+    ports:
+      - "80:80"
+    deploy:
+      mode: replicated
+      replicas: 1

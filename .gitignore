@@ -2,3 +2,8 @@ project\db-data\
 
 **/*.pb.go
 
+authentication-service/authApp
+broker-service/brokerApp
+listener-service/listenerApp
+logger-service/loggerServiceApp
+mail-service/mailerApp
